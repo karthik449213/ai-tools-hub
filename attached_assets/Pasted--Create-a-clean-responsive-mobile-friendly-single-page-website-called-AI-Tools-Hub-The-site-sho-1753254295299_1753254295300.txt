@@ -1,0 +1,72 @@
+"Create a clean, responsive, mobile-friendly single-page website called 'AI Tools Hub'. The site should feature:
+
+1. Hero Section:
+Site title: 'AI Tools Hub – Discover the Best AI Tools by Category'
+
+Subtitle: 'Hand-picked AI tools to boost your productivity, creativity, and business – all in one place.'
+
+Search bar (non-functional, just UI)
+
+2. Category Filter UI (Frontend only):
+Display categories: Content Creation, Image & Video, Productivity, Coding, Marketing
+
+Clickable tabs (UI only, no actual filtering logic needed)
+
+3. Grid Section of 15 Predefined AI Tool Cards:
+Each card should show:
+
+Tool Name
+
+Category
+
+1–2 sentence description
+
+“Visit” button (use dummy URLs like #)
+
+Tags for features (like: Free, Paid, GPT-4, etc.)
+
+4. Optional Footer:
+“Suggest a Tool” (dummy mailto link)
+
+Social links (dummy)
+
+Copyright
+
+Initial 15 AI Tools to Show:
+Content Creation
+Copy.ai – AI copywriting tool to generate blog posts, ads, and social media captions.
+
+Jasper – High-end AI assistant for marketing and SEO content.
+
+Writesonic – Content generator with templates for blogs, ads, emails, and more.
+
+Image & Video
+Runway ML – AI video editing tool with magic background remover and video-to-video capabilities.
+
+Remove.bg – Instantly removes background from images using AI.
+
+Kaiber – Create AI-generated videos from images, text, or music.
+
+Productivity
+Notion AI – AI-powered writing and summarizing assistant inside Notion.
+
+Mem.ai – AI note-taking tool that auto-organizes and connects your thoughts.
+
+ChatGPT – OpenAI’s conversational agent for research, summarizing, and problem-solving.
+
+Coding
+GitHub Copilot – AI coding assistant for real-time code suggestions.
+
+Codeium – Free AI code autocomplete and documentation generator.
+
+Tabnine – AI code completion plugin supporting multiple languages.
+
+Marketing
+Surfer SEO – AI + SEO optimization platform for content ranking.
+
+AdCreative.ai – Instantly generate conversion-focused ad creatives using AI.
+
+Ocoya – AI-based social media scheduler and content generator.
+
+Style with modern fonts, soft shadows, smooth animations, and a card layout using CSS Grid or Flexbox. Use placeholder images/logos for each tool. All content should work on the frontend only (no backend or database integration)."
+

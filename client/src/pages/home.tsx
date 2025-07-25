@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
-import { Search, ExternalLink, Bot, Pen, Camera, Rocket, Code, TrendingUp, Twitter, Linkedin, Github } from "lucide-react";
+import { Search, ExternalLink, Bot, Pen, Camera, Rocket, Code, TrendingUp, Twitter as TwitterIcon, LinkedinIcon, GithubIcon } from "lucide-react";
 
 interface AITool {
   id: number;
@@ -137,21 +137,268 @@ const aiTools: AITool[] = [
     id: 14,
     name: "AdCreative.ai",
     category: "marketing",
-    description: "Instantly generate conversion-focused ad creatives using AI.",
-    imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
-    tags: ["Ad Generation", "Conversion Focus", "Free Trial"],
+    description: "AI tool for generating high-converting ad creatives.",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Ad Creatives", "AI", "Free Plan"],
     url: "#"
   },
   {
     id: 15,
-    name: "Ocoya",
-    category: "marketing",
-    description: "AI-based social media scheduler and content generator.",
-    imageUrl: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
-    tags: ["Social Media", "Scheduler", "Free Plan"],
+    name: "Canva",
+    category: "image-video",
+    description: "Graphic design tool with AI-powered features for creating stunning visuals.",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Design", "Templates", "Free Plan"],
+    url: "#"
+  },
+
+  {
+    id: 16,
+    name: "Trade Ideas",
+    category: "trading",
+    description: "AI-powered stock scanning and backtesting platform with real-time trading signals and automated bot execution.",
+    imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["AI Bots", "Real-time Signals", "Desktop & Web"],
+    url: "#"
+  },
+  {
+    id: 17,
+    name: "TradingView",
+    category: "trading",
+    description: "Advanced charting platform with AI-powered pattern recognition and live bot trading broker integrations.",
+    imageUrl: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Charts", "Community", "Bot Integration"],
+    url: "#"
+  },
+  {
+    id: 18,
+    name: "QuantConnect",
+    category: "trading",
+    description: "Open-source algorithmic trading platform with cloud backtesting and multi-asset algorithm development.",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Open Source", "Cloud Backtesting", "Python/C#"],
+    url: "#"
+  },
+  {
+    id: 19,
+    name: "Alpaca",
+    category: "trading",
+    description: "Commission-free trading API platform with AI bot support and automated trading capabilities for stocks and crypto.",
+    imageUrl: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["API-First", "Commission-Free", "AI Bots"],
+    url: "#"
+  },
+  {
+    id: 20,
+    name: "Tickeron",
+    category: "trading",
+    description: "AI-driven swing trading platform with automated bots and predictive analytics for stock market patterns.",
+    imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Swing Trading", "Pattern Recognition", "Predictive AI"],
+    url: "#"
+  },
+  {
+    id: 21,
+    name: "TrendSpider",
+    category: "trading",
+    description: "AI-powered technical analysis platform with automated pattern recognition and backtesting capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Pattern Recognition", "Backtesting", "Technical Analysis"],
+    url: "#"
+  },
+  {
+    id: 22,
+    name: "RockFlow",
+    category: "trading",
+    description: "Beginner-friendly AI trading app with simple design, auto-trading features, and live market analysis.",
+    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Beginner-Friendly", "Mobile App", "Auto-Trading"],
+    url: "#"
+  },
+  {
+    id: 23,
+    name: "BlackBoxStocks",
+    category: "trading",
+    description: "AI-powered options trading platform with real-time alerts and data-driven forecasting tools.",
+    imageUrl: "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Options Trading", "Real-time Alerts", "Forecasting"],
+    url: "#"
+  },
+  {
+    id: 24,
+    name: "WunderTrading",
+    category: "trading",
+    description: "Multi-exchange cryptocurrency trading platform with AI bots and automated portfolio management.",
+    imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Crypto Trading", "Multi-Exchange", "Portfolio Management"],
+    url: "#"
+  },
+  {
+    id: 25,
+    name: "MetaTrader 5",
+    category: "trading",
+    description: "Professional trading platform with AI expert advisors, automated trading systems, and advanced analytics.",
+    imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Expert Advisors", "Forex", "Professional"],
+    url: "#"
+  },
+  {
+    id: 26,
+    name: "Cryptohopper",
+    category: "trading",
+    description: "Cloud-based cryptocurrency trading bot with AI strategies and automated portfolio rebalancing.",
+    imageUrl: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Crypto Bots", "Cloud-Based", "Rebalancing"],
+    url: "#"
+  },
+  {
+    id: 27,
+    name: "LevelFields",
+    category: "trading",
+    description: "AI-based trading platform that analyzes market data across multiple asset classes for real-time opportunities.",
+    imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Multi-Asset", "Real-time Analysis", "AI Insights"],
+    url: "#"
+  },
+  {
+    id: 28,
+    name: "3Commas",
+    category: "trading",
+    description: "Smart cryptocurrency trading platform with AI-powered bots, DCA strategies, and portfolio tracking.",
+    imageUrl: "https://images.unsplash.com/photo-1640161704729-cbe966a08476?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["DCA Bots", "Portfolio Tracking", "Smart Trading"],
+    url: "#"
+  },
+  {
+    id: 29,
+    name: "Pionex",
+    category: "trading",
+    description: "Built-in trading bot exchange with 16 free AI trading bots and automated grid trading strategies.",
+    imageUrl: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Built-in Bots", "Grid Trading", "16 Free Bots"],
+    url: "#"
+  },
+  {
+    id: 30,
+    name: "Quadency",
+    category: "trading",
+    description: "Professional cryptocurrency trading platform with AI portfolio automation and risk management tools.",
+    imageUrl: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Portfolio Automation", "Risk Management", "Professional"],
+    url: "#"
+  },
+  {
+    id: 31,
+    name: "Shrimpy",
+    category: "trading",
+    description: "Automated crypto portfolio management with AI rebalancing algorithms and social trading features.",
+    imageUrl: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Portfolio Rebalancing", "Social Trading", "Automated"],
+    url: "#"
+  },
+  {
+    id: 32,
+    name: "Zignaly",
+    category: "trading",
+    description: "Crypto trading platform with AI profit-sharing services and professional trader copy-trading features.",
+    imageUrl: "https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Profit Sharing", "Copy Trading", "Professional Traders"],
+    url: "#"
+  },
+  {
+    id: 33,
+    name: "Kaktana",
+    category: "trading",
+    description: "AI-powered trading assistant with natural language processing for strategy development and execution.",
+    imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["NLP Trading", "AI Assistant", "Strategy Development"],
+    url: "#"
+  },
+  {
+    id: 34,
+    name: "Composer",
+    category: "trading",
+    description: "No-code AI trading platform for building automated investment strategies with visual programming.",
+    imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["No-Code", "Visual Programming", "Investment Strategies"],
+    url: "#"
+  },
+  {
+    id: 35,
+    name: "Equbot",
+    category: "trading",
+    description: "AI-driven ETF management using IBM Watson for fundamental analysis and portfolio construction.",
+    imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["IBM Watson", "ETF Management", "Fundamental Analysis"],
+    url: "#"
+  },
+  {
+    id: 36,
+    name: "Sigmoidal",
+    category: "trading",
+    description: "Custom AI trading solutions with machine learning algorithms for institutional and retail traders.",
+    imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Machine Learning", "Custom Solutions", "Institutional"],
+    url: "#"
+  },
+  {
+    id: 37,
+    name: "Capitalise.ai",
+    category: "trading",
+    description: "AI stock analysis platform providing data-driven insights and automated screening for investment decisions.",
+    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Stock Analysis", "Automated Screening", "Data Insights"],
+    url: "#"
+  },
+  {
+    id: 38,
+    name: "Kavout",
+    category: "trading",
+    description: "AI investment platform using machine learning for stock ranking, portfolio optimization, and risk assessment.",
+    imageUrl: "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Stock Ranking", "Portfolio Optimization", "Risk Assessment"],
+    url: "#"
+  },
+  {
+    id: 39,
+    name: "Quantiacs",
+    category: "trading",
+    description: "Crowd-sourced quantitative trading platform with AI algorithm development and performance-based funding.",
+    imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Crowd-Sourced", "Performance Funding", "Quant Algorithms"],
+    url: "#"
+  },
+  {
+    id: 40,
+    name: "Backtrader",
+    category: "trading",
+    description: "Python-based backtesting and trading platform with AI strategy development and historical data analysis.",
+    imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Python-Based", "Backtesting", "Historical Analysis"],
+    url: "#"
+  },
+  {
+
+    id: 24,
+    name: "WunderTrading",
+    category: "trading",
+    description: "Crowd-sourced quantitative trading platform with AI algorithm development and performance-based funding.",
+    imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Crowd-Sourced", "Performance Funding", "Quant Algorithms"],
+    url: "#"
+  },
+  {
+    id: 25,
+    name: "Backtrader",
+    category: "trading",
+    description: "Python-based backtesting and trading platform with AI strategy development and historical data analysis.",
+    imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Python-Based", "Backtesting", "Historical Analysis"],
     url: "#"
   }
 ];
+
+
 
 const categories = [
   { id: "all", name: "All Tools", icon: null },
@@ -159,7 +406,8 @@ const categories = [
   { id: "image-video", name: "Image & Video", icon: Camera },
   { id: "productivity", name: "Productivity", icon: Rocket },
   { id: "coding", name: "Coding", icon: Code },
-  { id: "marketing", name: "Marketing", icon: TrendingUp }
+  { id: "marketing", name: "Marketing", icon: TrendingUp },
+  { id: "trading", name: "Trading", icon: TrendingUp },
 ];
 
 const getCategoryDisplayName = (category: string) => {
@@ -239,9 +487,9 @@ export default function Home() {
       <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6 animate-in fade-in duration-500">
-            AI Tools Hub
+            AI Tools Hub: Your Ultimate AI Directory
             <span className="block text-3xl lg:text-5xl text-blue-600 mt-2">
-              Discover the Best AI Tools by Category
+              Discover 2024's Best AI Tools by Category
             </span>
           </h1>
           <p className="text-xl text-slate-600 mb-8 max-w-3xl mx-auto animate-in slide-in-from-bottom-4 duration-700">
@@ -298,12 +546,12 @@ export default function Home() {
       </section>
 
       {/* Tools Grid */}
-      <main className="py-16 bg-slate-50">
+      <main className="py-16 bg-slate-50" itemScope itemType="https://schema.org/CollectionPage">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4">Featured AI Tools</h2>
-            <p className="text-lg text-slate-600">Curated collection of the most powerful AI tools available today</p>
-          </div>
+          <header className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-slate-900 mb-4" itemProp="name">Featured AI Tools</h2>
+            <p className="text-lg text-slate-600" itemProp="description">Curated collection of the most powerful AI tools available today</p>
+          </header>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredTools.map((tool) => (
@@ -367,13 +615,13 @@ export default function Home() {
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
-                  <Twitter className="h-6 w-6" />
+                  <TwitterIcon className="h-6 w-6" />
                 </a>
                 <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
-                  <Linkedin className="h-6 w-6" />
+                  <LinkedinIcon className="h-6 w-6" />
                 </a>
                 <a href="#" className="text-slate-400 hover:text-blue-400 transition-colors">
-                  <Github className="h-6 w-6" />
+                  <GithubIcon className="h-6 w-6" />
                 </a>
               </div>
             </div>
@@ -386,6 +634,7 @@ export default function Home() {
                 <li><a href="#" className="hover:text-white transition-colors">Productivity</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Coding</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Marketing</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Trading</a></li>
               </ul>
             </div>
             
@@ -394,7 +643,7 @@ export default function Home() {
               <ul className="space-y-2 text-slate-300">
                 <li><a href="#" className="hover:text-white transition-colors">Submit Tool</a></li>
                 <li>
-                  <a href="mailto:suggest@aitoolshub.com" className="hover:text-white transition-colors">
+                  <a href="#" className="hover:text-white transition-colors">
                     Suggest a Tool
                   </a>
                 </li>

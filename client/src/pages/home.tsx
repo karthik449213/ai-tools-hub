@@ -20,7 +20,7 @@ const aiTools: AITool[] = [
   {
     id: 1,
     name: "Copy.ai",
-    category: "Content Creation",
+    category: "content-creation",
     description: "AI copywriting tool to generate blog posts, ads, and social media captions.",
     imageUrl: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Plan", "GPT-4", "Templates"],
@@ -29,7 +29,7 @@ const aiTools: AITool[] = [
   {
     id: 2,
     name: "Jasper",
-    category: "Content Creation",
+    category: "content-creation",
     description: "High-end AI assistant for marketing and SEO content.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Paid", "SEO", "Enterprise"],
@@ -38,7 +38,7 @@ const aiTools: AITool[] = [
   {
     id: 3,
     name: "Writesonic",
-    category: "Content Creation",
+    category: "content-creation",
     description: "Content generator with templates for blogs, ads, emails, and more.",
     imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Trial", "Templates", "Multilingual"],
@@ -1519,45 +1519,47 @@ const aiTools: AITool[] = [
 
 const categories = [
   { id: "all", name: "All Tools", icon: null },
-  { id: "Content Creation", name: "Content Creation", icon: Pen },
-  { id: "image & video", name: "Image & Video", icon: Camera },
-  { id: "Productivity", name: "Productivity", icon: Rocket },
+  { id: "content-creation", name: "Content Creation", icon: Pen },
+  { id: "image-video", name: "Image & Video", icon: Camera },
+  { id: "productivity", name: "Productivity", icon: Rocket },
   { id: "coding", name: "Coding", icon: Code },
-  { id: "Marketing", name: "Marketing", icon: TrendingUp },
+  { id: "marketing", name: "Marketing", icon: TrendingUp },
   { id: "trading", name: "Trading", icon: TrendingUp },
 ];
 
 const getCategoryDisplayName = (category: string) => {
   switch (category) {
-    case "Content Creation":
+    case "content-creation":
       return "Content Creation";
-    case "image & video":
+    case "image-video":
       return "Image & Video";
-    case "Productivity":
+    case "productivity":
       return "Productivity";
     case "coding":
       return "Coding";
-    case "Marketing":
+    case "marketing":
       return "Marketing";
     case "trading":
       return "Trading";
     default:
-      return category;
+      return category.charAt(0).toUpperCase() + category.slice(1);
   }
 };
 
 const getCategoryColor = (category: string) => {
   switch (category) {
-    case "Content Creation":
+    case "content-creation":
       return "bg-blue-100 text-blue-800";
-    case "image & video":
+    case "image-video":
       return "bg-purple-100 text-purple-800";
-    case "Productivity":
+    case "productivity":
       return "bg-green-100 text-green-800";
     case "coding":
       return "bg-slate-100 text-slate-800";
-    case "Marketing":
+    case "marketing":
       return "bg-orange-100 text-orange-800";
+    case "trading":
+      return "bg-yellow-100 text-yellow-800";
     default:
       return "bg-gray-100 text-gray-800";
   }

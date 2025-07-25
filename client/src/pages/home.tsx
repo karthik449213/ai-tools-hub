@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search, ExternalLink, Bot, Pen, Camera, Rocket, Code, TrendingUp, Twitter as TwitterIcon, LinkedinIcon, GithubIcon } from "lucide-react";
 
+
 interface AITool {
   id: number;
   name: string;
@@ -23,7 +24,7 @@ const aiTools: AITool[] = [
     description: "AI copywriting tool to generate blog posts, ads, and social media captions.",
     imageUrl: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Plan", "GPT-4", "Templates"],
-    url: "#"
+    url: "https://www.copy.ai/"
   },
   {
     id: 2,
@@ -32,7 +33,7 @@ const aiTools: AITool[] = [
     description: "High-end AI assistant for marketing and SEO content.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Paid", "SEO", "Enterprise"],
-    url: "#"
+    url: "https://www.jasper.ai/"
   },
   {
     id: 3,
@@ -41,7 +42,7 @@ const aiTools: AITool[] = [
     description: "Content generator with templates for blogs, ads, emails, and more.",
     imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Trial", "Templates", "Multilingual"],
-    url: "#"
+    url: "https://writesonic.com/"
   },
   {
     id: 4,
@@ -50,7 +51,7 @@ const aiTools: AITool[] = [
     description: "AI video editing tool with magic background remover and video-to-video capabilities.",
     imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["✨ Trending", "AI Video", "Free Plan"],
-    url: "#"
+    url: "https://runwayml.com/"
   },
   {
     id: 5,
@@ -59,7 +60,7 @@ const aiTools: AITool[] = [
     description: "Instantly removes background from images using AI.",
     imageUrl: "https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free", "Instant", "Background Removal"],
-    url: "#"
+    url: "https://www.remove.bg/"
   },
   {
     id: 6,
@@ -68,7 +69,7 @@ const aiTools: AITool[] = [
     description: "Create AI-generated videos from images, text, or music.",
     imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Creative", "Music to Video", "Paid"],
-    url: "#"
+    url: "https://www.kaiber.ai/superstudio/"
   },
   {
     id: 7,
@@ -77,7 +78,8 @@ const aiTools: AITool[] = [
     description: "AI-powered writing and summarizing assistant inside Notion.",
     imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["💎 Featured", "Workspace", "Add-on"],
-    url: "#"
+ 
+    url: "https://www.notion.so/product/ai"
   },
   {
     id: 8,
@@ -86,7 +88,7 @@ const aiTools: AITool[] = [
     description: "AI note-taking tool that auto-organizes and connects your thoughts.",
     imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Smart Notes", "Auto-organize", "Free Trial"],
-    url: "#"
+    url: "https://mem.ai/"
   },
   {
     id: 9,
@@ -95,7 +97,7 @@ const aiTools: AITool[] = [
     description: "OpenAI's conversational agent for research, summarizing, and problem-solving.",
     imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["🔥 Popular", "GPT-4", "Free"],
-    url: "#"
+    url: "https://chat.openai.com/chat"
   },
   {
     id: 10,
@@ -104,7 +106,7 @@ const aiTools: AITool[] = [
     description: "AI coding assistant for real-time code suggestions.",
     imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["GitHub", "IDE Plugin", "Subscription"],
-    url: "#"
+    url: "https://githung.com/features/copilot"
   },
   {
     id: 11,
@@ -113,7 +115,7 @@ const aiTools: AITool[] = [
     description: "Free AI code autocomplete and documentation generator.",
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free", "Autocomplete", "Multi-language"],
-    url: "#"
+    url: "https://www.codeium.com/"
   },
   {
     id: 12,
@@ -122,7 +124,7 @@ const aiTools: AITool[] = [
     description: "AI code completion plugin supporting multiple languages.",
     imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Plugin", "Multi-IDE", "Freemium"],
-    url: "#"
+    url: "https://www.tabnine.com/"
   },
   {
     id: 13,
@@ -131,7 +133,7 @@ const aiTools: AITool[] = [
     description: "AI + SEO optimization platform for content ranking.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["SEO", "Content Optimization", "Paid"],
-    url: "#"
+    url: "https://surferseo.com/"
   },
   {
     id: 14,
@@ -140,7 +142,7 @@ const aiTools: AITool[] = [
     description: "AI tool for generating high-converting ad creatives.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Ad Creatives", "AI", "Free Plan"],
-    url: "#"
+    url: "https://www.adcreative.ai/"
   },
   {
     id: 15,
@@ -149,7 +151,7 @@ const aiTools: AITool[] = [
     description: "Graphic design tool with AI-powered features for creating stunning visuals.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Design", "Templates", "Free Plan"],
-    url: "#"
+    url: "https://www.canva.com/"
   },
 
   {
@@ -159,7 +161,7 @@ const aiTools: AITool[] = [
     description: "AI-powered stock scanning and backtesting platform with real-time trading signals and automated bot execution.",
     imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["AI Bots", "Real-time Signals", "Desktop & Web"],
-    url: "#"
+    url: "https://www.trade-ideas.com/"
   },
   {
     id: 17,
@@ -168,7 +170,7 @@ const aiTools: AITool[] = [
     description: "Advanced charting platform with AI-powered pattern recognition and live bot trading broker integrations.",
     imageUrl: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Charts", "Community", "Bot Integration"],
-    url: "#"
+    url: "https://www.tradingview.com/"
   },
   {
     id: 18,
@@ -177,7 +179,7 @@ const aiTools: AITool[] = [
     description: "Open-source algorithmic trading platform with cloud backtesting and multi-asset algorithm development.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Open Source", "Cloud Backtesting", "Python/C#"],
-    url: "#"
+    url: "https://www.quantconnect.com/"
   },
   {
     id: 19,
@@ -186,7 +188,7 @@ const aiTools: AITool[] = [
     description: "Commission-free trading API platform with AI bot support and automated trading capabilities for stocks and crypto.",
     imageUrl: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["API-First", "Commission-Free", "AI Bots"],
-    url: "#"
+    url: "https://alpaca.markets/"
   },
   {
     id: 20,
@@ -195,7 +197,7 @@ const aiTools: AITool[] = [
     description: "AI-driven swing trading platform with automated bots and predictive analytics for stock market patterns.",
     imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Swing Trading", "Pattern Recognition", "Predictive AI"],
-    url: "#"
+    url: "https://www.tickeron.com/"
   },
   {
     id: 21,
@@ -204,7 +206,7 @@ const aiTools: AITool[] = [
     description: "AI-powered technical analysis platform with automated pattern recognition and backtesting capabilities.",
     imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Pattern Recognition", "Backtesting", "Technical Analysis"],
-    url: "#"
+    url: "https://www.trendspider.com/"
   },
   {
     id: 22,
@@ -213,7 +215,7 @@ const aiTools: AITool[] = [
     description: "Beginner-friendly AI trading app with simple design, auto-trading features, and live market analysis.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Beginner-Friendly", "Mobile App", "Auto-Trading"],
-    url: "#"
+    url: "https://rockflow.ai/"
   },
   {
     id: 23,
@@ -222,7 +224,7 @@ const aiTools: AITool[] = [
     description: "AI-powered options trading platform with real-time alerts and data-driven forecasting tools.",
     imageUrl: "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Options Trading", "Real-time Alerts", "Forecasting"],
-    url: "#"
+    url: "https://www.blackboxstocks.com/"
   },
   {
     id: 24,
@@ -231,7 +233,7 @@ const aiTools: AITool[] = [
     description: "Multi-exchange cryptocurrency trading platform with AI bots and automated portfolio management.",
     imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Crypto Trading", "Multi-Exchange", "Portfolio Management"],
-    url: "#"
+    url: "https://wundertrading.com/"
   },
   {
     id: 25,
@@ -240,7 +242,7 @@ const aiTools: AITool[] = [
     description: "Professional trading platform with AI expert advisors, automated trading systems, and advanced analytics.",
     imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Expert Advisors", "Forex", "Professional"],
-    url: "#"
+    url: "https://www.metatrader5.com/en"
   },
   {
     id: 26,
@@ -249,7 +251,7 @@ const aiTools: AITool[] = [
     description: "Cloud-based cryptocurrency trading bot with AI strategies and automated portfolio rebalancing.",
     imageUrl: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Crypto Bots", "Cloud-Based", "Rebalancing"],
-    url: "#"
+    url: "https://www.cryptohopper.com/"
   },
   {
     id: 27,
@@ -258,7 +260,7 @@ const aiTools: AITool[] = [
     description: "AI-based trading platform that analyzes market data across multiple asset classes for real-time opportunities.",
     imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Multi-Asset", "Real-time Analysis", "AI Insights"],
-    url: "#"
+    url: "https://www.levelfields.com/"
   },
   {
     id: 28,
@@ -267,7 +269,7 @@ const aiTools: AITool[] = [
     description: "Smart cryptocurrency trading platform with AI-powered bots, DCA strategies, and portfolio tracking.",
     imageUrl: "https://images.unsplash.com/photo-1640161704729-cbe966a08476?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["DCA Bots", "Portfolio Tracking", "Smart Trading"],
-    url: "#"
+    url: "https://3commas.io/"
   },
   {
     id: 29,
@@ -276,7 +278,7 @@ const aiTools: AITool[] = [
     description: "Built-in trading bot exchange with 16 free AI trading bots and automated grid trading strategies.",
     imageUrl: "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Built-in Bots", "Grid Trading", "16 Free Bots"],
-    url: "#"
+    url: "https://www.pionex.com/"
   },
   {
     id: 30,
@@ -285,7 +287,7 @@ const aiTools: AITool[] = [
     description: "Professional cryptocurrency trading platform with AI portfolio automation and risk management tools.",
     imageUrl: "https://images.unsplash.com/photo-1579952363873-27d3bfad9c0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Portfolio Automation", "Risk Management", "Professional"],
-    url: "#"
+    url: "https://quadency.com/"
   },
   {
     id: 31,
@@ -294,7 +296,7 @@ const aiTools: AITool[] = [
     description: "Automated crypto portfolio management with AI rebalancing algorithms and social trading features.",
     imageUrl: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Portfolio Rebalancing", "Social Trading", "Automated"],
-    url: "#"
+    url: "https://www.shrimpy.io/"
   },
   {
     id: 32,
@@ -303,7 +305,7 @@ const aiTools: AITool[] = [
     description: "Crypto trading platform with AI profit-sharing services and professional trader copy-trading features.",
     imageUrl: "https://images.unsplash.com/photo-1607863680198-23d4b2565df0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Profit Sharing", "Copy Trading", "Professional Traders"],
-    url: "#"
+    url: "https://zignaly.com/"
   },
   {
     id: 33,
@@ -312,7 +314,7 @@ const aiTools: AITool[] = [
     description: "AI-powered trading assistant with natural language processing for strategy development and execution.",
     imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["NLP Trading", "AI Assistant", "Strategy Development"],
-    url: "#"
+    url: "https://www.kaktana.com/"
   },
   {
     id: 34,
@@ -321,7 +323,7 @@ const aiTools: AITool[] = [
     description: "No-code AI trading platform for building automated investment strategies with visual programming.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["No-Code", "Visual Programming", "Investment Strategies"],
-    url: "#"
+    url: "https://www.composer.trade/"
   },
   {
     id: 35,
@@ -330,7 +332,7 @@ const aiTools: AITool[] = [
     description: "AI-driven ETF management using IBM Watson for fundamental analysis and portfolio construction.",
     imageUrl: "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["IBM Watson", "ETF Management", "Fundamental Analysis"],
-    url: "#"
+    url: "https://www.equbot.com/"
   },
   {
     id: 36,
@@ -339,7 +341,7 @@ const aiTools: AITool[] = [
     description: "Custom AI trading solutions with machine learning algorithms for institutional and retail traders.",
     imageUrl: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Machine Learning", "Custom Solutions", "Institutional"],
-    url: "#"
+    url: "https://sigmoidal.io/"
   },
   {
     id: 37,
@@ -348,7 +350,7 @@ const aiTools: AITool[] = [
     description: "AI stock analysis platform providing data-driven insights and automated screening for investment decisions.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Stock Analysis", "Automated Screening", "Data Insights"],
-    url: "#"
+    url: "https://capitalise.ai/"
   },
   {
     id: 38,
@@ -357,7 +359,7 @@ const aiTools: AITool[] = [
     description: "AI investment platform using machine learning for stock ranking, portfolio optimization, and risk assessment.",
     imageUrl: "https://images.unsplash.com/photo-1572726729207-a78d6feb18d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Stock Ranking", "Portfolio Optimization", "Risk Assessment"],
-    url: "#"
+    url: "https://www.kavout.com/"
   },
   {
     id: 39,
@@ -366,7 +368,7 @@ const aiTools: AITool[] = [
     description: "Crowd-sourced quantitative trading platform with AI algorithm development and performance-based funding.",
     imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Crowd-Sourced", "Performance Funding", "Quant Algorithms"],
-    url: "#"
+    url: "https://www.quantiacs.com/"
   },
   {
     id: 40,
@@ -375,28 +377,237 @@ const aiTools: AITool[] = [
     description: "Python-based backtesting and trading platform with AI strategy development and historical data analysis.",
     imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Python-Based", "Backtesting", "Historical Analysis"],
-    url: "#"
+    url: "https://www.backtrader.com/"
   },
   {
-
-    id: 24,
-    name: "WunderTrading",
-    category: "trading",
-    description: "Crowd-sourced quantitative trading platform with AI algorithm development and performance-based funding.",
-    imageUrl: "https://images.unsplash.com/photo-1605792657660-596af9009e82?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
-    tags: ["Crowd-Sourced", "Performance Funding", "Quant Algorithms"],
-    url: "#"
+    id: 41,
+    name: "GitHub Copilot",
+    category: "coding",
+    description: "AI pair programmer that provides real-time code suggestions, completions, and explanations directly in your IDE.",
+    imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["IDE Integration", "Real-time Suggestions", "OpenAI Powered"],
+    url: "https://github.com/features/copilot"
   },
   {
-    id: 25,
-    name: "Backtrader",
-    category: "trading",
-    description: "Python-based backtesting and trading platform with AI strategy development and historical data analysis.",
-    imageUrl: "https://images.unsplash.com/photo-1518186233392-c232efbf2373?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
-    tags: ["Python-Based", "Backtesting", "Historical Analysis"],
-    url: "#"
+    id: 42,
+    name: "Tabnine",
+    category: "coding",
+    description: "AI code assistant with local model options, supporting 70+ languages and privacy-focused code completion.",
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["70+ Languages", "Local Models", "Privacy-First"],
+    url: "https://www.tabnine.com/"
+  },
+  {
+    id: 43,
+    name: "Amazon CodeWhisperer",
+    category: "coding",
+    description: "AWS-optimized AI coding assistant with security scanning and cloud service integration capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["AWS Integration", "Security Scanning", "Cloud Optimized"],
+    url: "https://aws.amazon.com/codewhisperer/"
+  },
+  {
+    id: 44,
+    name: "Cursor",
+    category: "coding",
+    description: "AI-first code editor with advanced context understanding and intelligent code generation capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["AI-First Editor", "Context Aware", "Advanced Generation"],
+    url: "https://cursor.so/"
+  },
+  {
+    id: 45,
+    name: "Codeium",
+    category: "coding",
+    description: "Free AI-powered code completion tool with fast suggestions and support for 70+ programming languages.",
+    imageUrl: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Free Tier", "Fast Suggestions", "70+ Languages"],
+    url: "https://www.codeium.com/"
+  },
+  {
+    id: 46,
+    name: "Replit Ghostwriter",
+    category: "coding",
+    description: "Browser-based AI coding assistant integrated with Replit's collaborative development environment.",
+    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Browser-Based", "Collaborative", "Explain Code"],
+    url: "https://replit.com/site/ghostwriter"
+  },
+  {
+    id: 47,
+    name: "Sourcegraph Cody",
+    category: "coding",
+    description: "AI coding assistant with codebase understanding and enterprise-grade security features.",
+    imageUrl: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Codebase Understanding", "Enterprise Security", "Code Search"],
+    url: "https://sourcegraph.com/cody"
+  },
+  {
+    id: 48,
+    name: "ChatGPT",
+    category: "coding",
+    description: "Conversational AI that can generate, explain, and debug code across multiple programming languages.",
+    imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Conversational AI", "Code Explanation", "Multi-Language"],
+    url: "https://chat.openai.com/chat"
+  },
+  {
+    id: 49,
+    name: "Claude",
+    category: "coding",
+    description: "AI assistant capable of complex code generation, debugging, and architectural planning with artifacts support.",
+    imageUrl: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Complex Generation", "Artifacts Support", "Architectural Planning"],
+    url: "https://claude.ai/"
+  },
+  {
+    id: 50,
+    name: "CodeT5+",
+    category: "coding",
+    description: "Open-source AI model for code understanding, generation, and summarization tasks.",
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Open Source", "Code Understanding", "Summarization"],
+    url: "https://huggingface.co/salesforce/codet5p"
+  },
+  {
+    id: 51,
+    name: "Windsurf Editor",
+    category: "coding",
+    description: "AI-powered development environment with intelligent code assistance and workflow automation.",
+    imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Development Environment", "Workflow Automation", "Intelligent Assistance"],
+    url: "https://windsurf.dev/"
+  },
+  {
+    id: 52,
+    name: "Qodo (formerly CodiumAI)",
+    category: "coding",
+    description: "AI-powered testing tool that generates meaningful tests and improves code quality automatically.",
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Test Generation", "Code Quality", "Automated Testing"],
+    url: "https://qodo.ai/"
+  },
+  {
+    id: 53,
+    name: "FauxPilot",
+    category: "coding",
+    description: "Open-source alternative to GitHub Copilot that can be self-hosted for privacy and customization.",
+    imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Open Source", "Self-Hosted", "Privacy Focused"],
+    url: "https://fauxpilot.com/"
+  },
+  {
+    id: 54,
+    name: "Tabby",
+    category: "coding",
+    description: "Self-hosted AI coding assistant offering local deployment with customizable models and privacy control.",
+    imageUrl: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Self-Hosted", "Customizable Models", "Privacy Control"],
+    url: "https://tabby.sh/"
+  },
+  {
+    id: 55,
+    name: "Mutable.ai",
+    category: "coding",
+    description: "AI-powered code transformation tool with design-to-code capabilities and automatic refactoring features.",
+    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Design-to-Code", "Auto Refactoring", "Code Transformation"],
+    url: "https://mutable.ai/"
+  },
+  {
+    id: 56,
+    name: "DeepCode",
+    category: "coding",
+    description: "AI-powered static analysis tool that detects bugs, security vulnerabilities, and code quality issues.",
+    imageUrl: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Static Analysis", "Security Scanning", "Bug Detection"],
+    url: "https://www.deepcode.ai/"
+  },
+  {
+    id: 57,
+    name: "Polycoder",
+    category: "coding",
+    description: "Open-source code generation model trained on multiple programming languages with customizable fine-tuning.",
+    imageUrl: "https://images.unsplash.com/photo-1629904853893-c2c8981a1dc5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Open Source", "Multi-Language", "Fine-Tuning"],
+    url: "https://polycoder.ai/"
+  },
+  {
+    id: 58,
+    name: "CodeComplete",
+    category: "coding",
+    description: "Enterprise AI coding assistant with fine-tuned models for specific codebases and team workflows.",
+    imageUrl: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Enterprise Focus", "Fine-Tuned Models", "Team Workflows"],
+    url: "https://codecomplete.ai/"
+  },
+  {
+    id: 59,
+    name: "Blackbox AI",
+    category: "coding",
+    description: "AI coding assistant with real-time code search, generation, and multi-language support capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Real-time Search", "Code Generation", "Multi-Language"],
+    url: "https://blackbox-ai.com/"
+  },
+  {
+    id: 60,
+    name: "Kite",
+    category: "coding",
+    description: "AI-powered code completion engine with line-of-code completions and intelligent documentation lookup.",
+    imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Line Completions", "Documentation Lookup", "Intelligent Engine"],
+    url: "https://www.kite.com/"
+  },
+  {
+    id: 61,
+    name: "IntelliCode",
+    category: "coding",
+    description: "Microsoft's AI-powered development tool providing context-aware code completions in Visual Studio.",
+    imageUrl: "https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Microsoft", "Context-Aware", "Visual Studio"],
+    url: "https://visualstudio.microsoft.com/services/intellicode/"
+  },
+  {
+    id: 62,
+    name: "Codex",
+    category: "coding",
+    description: "OpenAI's code generation model powering various coding assistants with natural language to code translation.",
+    imageUrl: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["OpenAI", "Natural Language", "Code Translation"],
+    url: "https://openai.com/research/codex"
+  },
+  {
+    id: 63,
+    name: "Bind AI",
+    category: "coding",
+    description: "AI development environment with integrated code generation, testing, and deployment automation features.",
+    imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Development Environment", "Testing Automation", "Deployment"],
+    url: "https://bind.ai/"
+  },
+  {
+    id: 64,
+    name: "CodeGeeX",
+    category: "coding",
+    description: "Multilingual code generation model supporting 20+ programming languages with cross-language translation.",
+    imageUrl: "https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Multilingual", "20+ Languages", "Cross-Language"],
+    url: "https://codegeex.com/"
+  },
+  {
+    id: 65,
+    name: "Atomist",
+    category: "coding",
+    description: "AI-powered code transformation platform enabling automatic code modifications and refactoring at scale.",
+    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Code Transformation", "Auto Modifications", "Scale Refactoring"],
+    url: "https://atomist.com/"
   }
 ];
+
+
+
 
 
 

@@ -20,7 +20,7 @@ const aiTools: AITool[] = [
   {
     id: 1,
     name: "Copy.ai",
-    category: "content-creation",
+    category: "Content Creation",
     description: "AI copywriting tool to generate blog posts, ads, and social media captions.",
     imageUrl: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Plan", "GPT-4", "Templates"],
@@ -29,7 +29,7 @@ const aiTools: AITool[] = [
   {
     id: 2,
     name: "Jasper",
-    category: "content-creation",
+    category: "Content Creation",
     description: "High-end AI assistant for marketing and SEO content.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Paid", "SEO", "Enterprise"],
@@ -38,7 +38,7 @@ const aiTools: AITool[] = [
   {
     id: 3,
     name: "Writesonic",
-    category: "content-creation",
+    category: "Content Creation",
     description: "Content generator with templates for blogs, ads, emails, and more.",
     imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Trial", "Templates", "Multilingual"],
@@ -1292,7 +1292,7 @@ const aiTools: AITool[] = [
 
 const categories = [
   { id: "all", name: "All Tools", icon: null },
-  { id: "content-creation", name: "Content Creation", icon: Pen },
+  { id: "Content Creation", name: "Content Creation", icon: Pen },
   { id: "image & video", name: "Image & Video", icon: Camera },
   { id: "Productivity", name: "Productivity", icon: Rocket },
   { id: "coding", name: "Coding", icon: Code },
@@ -1302,16 +1302,18 @@ const categories = [
 
 const getCategoryDisplayName = (category: string) => {
   switch (category) {
-    case "content-creation":
+    case "Content Creation":
       return "Content Creation";
-    case "image-video":
+    case "image & video":
       return "Image & Video";
-    case "productivity":
+    case "Productivity":
       return "Productivity";
     case "coding":
       return "Coding";
     case "marketing":
       return "Marketing";
+    case "trading":
+      return "Trading";
     default:
       return category;
   }

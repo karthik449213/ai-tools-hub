@@ -603,6 +603,231 @@ const aiTools: AITool[] = [
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Code Transformation", "Auto Modifications", "Scale Refactoring"],
     url: "https://atomist.com/"
+  },
+  {
+    id: 66,
+    name: "Midjourney",
+    category: "image & video",
+    description: "AI image generator known for producing high-quality, artistic and visually striking images with exceptional stylistic control.",
+    imageUrl: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Artistic Quality", "Stylized Images", "Discord-Based"],
+    url: "https://www.midjourney.com/"
+  },
+  {
+    id: 67,
+    name: "DALL-E 3",
+    category: "image & video",
+    description: "OpenAI's conversational AI image generator that creates original and realistic images from detailed text prompts.",
+    imageUrl: "https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Conversational AI", "Realistic Images", "Text-to-Image"],
+    url: "https://openai.com/dall-e-3/"
+  },
+  {
+    id: 68,
+    name: "Stable Diffusion",
+    category: "image & video",
+    description: "Open-source AI image generation model with full customization options and local deployment capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Open Source", "Customizable", "Local Deployment"],
+    url: "https://stability.ai/stable-diffusion"
+  },
+  {
+    id: 69,
+    name: "Runway ML",
+    category: "image & video",
+    description: "AI-powered creative suite for video generation, editing, and real-time collaboration with advanced Gen-3 Alpha model.",
+    imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Video Generation", "Creative Suite", "Gen-3 Alpha"],
+    url: "https://runwayml.com/"
+  },
+  {
+    id: 70,
+    name: "Luma Dream Machine",
+    category: "image & video",
+    description: "AI video generator that creates high-quality videos from text and image prompts with smooth motion and lifelike visuals.",
+    imageUrl: "https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Text-to-Video", "Image-to-Video", "Smooth Motion"],
+    url: "https://www.luma.ai/dream-machine"
+  },
+  {
+    id: 71,
+    name: "Pika Labs",
+    category: "image & video",
+    description: "AI-driven video generation platform enabling dynamic video creation from text or image prompts with enhanced motion.",
+    imageUrl: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Dynamic Videos", "Motion Enhancement", "Prompt-Based"],
+    url: "https://www.pikalabs.ai/"
+  },
+  {
+    id: 72,
+    name: "OpenAI Sora",
+    category: "image & video",
+    description: "Advanced AI video model capable of generating highly realistic and imaginative scenes from text, images, and video inputs.",
+    imageUrl: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Highly Realistic", "Multi-Input", "Imaginative Scenes"],
+    url: "https://openai.com/sora"
+  },
+  {
+    id: 73,
+    name: "Leonardo AI",
+    category: "image & video",
+    description: "AI image generator focused on creating game assets, concept art, and illustrations with fine-tuned control.",
+    imageUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Game Assets", "Concept Art", "Fine-Tuned Control"],
+    url: "https://leonardo.ai/"
+  },
+  {
+    id: 74,
+    name: "Synthesia",
+    category: "image & video",
+    description: "AI video platform for creating professional presenter videos with AI avatars and multilingual voice synthesis.",
+    imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["AI Avatars", "Multilingual", "Professional Videos"],
+    url: "https://www.synthesia.io/"
+  },
+  {
+    id: 75,
+    name: "Adobe Firefly",
+    category: "image & video",
+    description: "Adobe's AI-powered creative tool for generating images, text effects, and design elements integrated with Creative Suite.",
+    imageUrl: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Creative Suite", "Text Effects", "Design Elements"],
+    url: "https://www.adobe.com/sensei/generative-ai/firefly.html"
+  },
+  {
+    id: 76,
+    name: "Canva Text-to-Image",
+    category: "image & video",
+    description: "AI image generation tool integrated into Canva's design platform with 50 free generations and easy-to-use interface.",
+    imageUrl: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Design Integration", "50 Free Generations", "User-Friendly"],
+    url: "https://www.canva.com/features/text-to-image/"
+  },
+  {
+    id: 77,
+    name: "Flux 1 Pro",
+    category: "image & video",
+    description: "State-of-the-art AI image generator delivering exceptional quality and detail in photorealistic image creation.",
+    imageUrl: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Photorealistic", "Exceptional Quality", "State-of-the-Art"],
+    url: "https://www.flux1pro.com/"
+  },
+  {
+    id: 78,
+    name: "Recraft V3",
+    category: "image & video",
+    description: "Advanced AI image generator with superior text rendering capabilities and precise control over visual elements.",
+    imageUrl: "https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Text Rendering", "Precise Control", "Visual Elements"],
+    url: "https://www.recraftv3.com/"
+  },
+  {
+    id: 79,
+    name: "Haiper AI",
+    category: "image & video",
+    description: "AI video generation platform specializing in creating dynamic and engaging video content from simple text prompts.",
+    imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Dynamic Content", "Engaging Videos", "Simple Prompts"],
+    url: "https://www.haiper.ai/"
+  },
+  {
+    id: 80,
+    name: "Kling AI",
+    category: "image & video",
+    description: "Chinese AI video generator offering high-quality video synthesis with competitive features and pricing models.",
+    imageUrl: "https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["High-Quality Synthesis", "Competitive Pricing", "Video Creation"],
+    url: "https://www.kling.ai/"
+  },
+  {
+    id: 81,
+    name: "Artbreeder",
+    category: "image & video",
+    description: "Collaborative AI art platform for blending and evolving images using genetic algorithms and GANs.",
+    imageUrl: "https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Collaborative Art", "Genetic Algorithms", "Image Blending"],
+    url: "https://www.artbreeder.com/"
+  },
+  {
+    id: 82,
+    name: "NightCafe Studio",
+    category: "image & video",
+    description: "AI art generator with multiple algorithms including Stable Diffusion, DALL-E, and neural style transfer options.",
+    imageUrl: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Multiple Algorithms", "Style Transfer", "Art Generator"],
+    url: "https://nightcafe.studio/"
+  },
+  {
+    id: 83,
+    name: "DeepAI",
+    category: "image & video",
+    description: "AI image and video processing platform offering various generators, enhancers, and creative filters.",
+    imageUrl: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Image Processing", "Creative Filters", "Enhancers"],
+    url: "https://deepai.org/"
+  },
+  {
+    id: 84,
+    name: "Jasper AI Art",
+    category: "image & video",
+    description: "AI-powered image generation tool integrated with Jasper's content creation platform for marketing materials.",
+    imageUrl: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Marketing Materials", "Content Integration", "AI-Powered"],
+    url: "https://www.jasper.ai/art"
+  },
+  {
+    id: 85,
+    name: "Photosonic",
+    category: "image & video",
+    description: "Writesonic's AI image generator creating unique royalty-free images from text descriptions for various use cases.",
+    imageUrl: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Royalty-Free", "Unique Images", "Various Use Cases"],
+    url: "https://writesonic.com/photosonic"
+  },
+  {
+    id: 86,
+    name: "Pictory",
+    category: "image & video",
+    description: "AI video creation platform that transforms scripts, blog posts, and articles into engaging short videos automatically.",
+    imageUrl: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Script-to-Video", "Blog Posts", "Automatic Creation"],
+    url: "https://pictory.ai/"
+  },
+  {
+    id: 87,
+    name: "Lensa AI",
+    category: "image & video",
+    description: "Mobile AI photo editor and avatar generator with advanced portrait enhancement and artistic style filters.",
+    imageUrl: "https://images.unsplash.com/photo-1586953208448-b95a79798f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Mobile App", "Avatar Generator", "Portrait Enhancement"],
+    url: "https://apps.apple.com/us/app/lensa-ai-photo-editor/id6472683301"
+  },
+  {
+    id: 88,
+    name: "Wombo Dream",
+    category: "image & video",
+    description: "Simple AI art generator app that creates colorful and abstract artwork from text prompts with various art styles.",
+    imageUrl: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Simple Interface", "Abstract Artwork", "Various Styles"],
+    url: "https://www.wombo.art/dream"
+  },
+  {
+    id: 89,
+    name: "Invideo AI",
+    category: "image & video",
+    description: "AI-powered video creation platform with automated editing, voice synthesis, and template-based video generation.",
+    imageUrl: "https://images.unsplash.com/photo-1558655146-d09347e92766?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Automated Editing", "Voice Synthesis", "Template-Based"],
+    url: "https://invideo.io/ai/"
+  },
+  {
+    id: 90,
+    name: "Playground AI",
+    category: "image & video",
+    description: "Free AI image generator with a user-friendly interface, offering multiple models and editing capabilities.",
+    imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    tags: ["Free Generator", "User-Friendly", "Multiple Models"],
+    url: "https://playgroundai.com/"
   }
 ];
 

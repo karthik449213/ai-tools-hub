@@ -1280,7 +1280,234 @@ const aiTools: AITool[] = [
     "imageUrl": "https://images.unsplash.com/photo-1491841550275-5b462bf48366?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     "tags": ["Writing Assistant", "Paraphrasing", "Grammar"],
     "url": "https://www.deepl.com/write"
+  },
+
+  {
+    "id": 141,
+    "name": "HubSpot AI",
+    "category": "Marketing",
+    "description": "A suite of AI tools integrated into the HubSpot platform to help draft emails, generate blog ideas, create social media copy, and build reports.",
+    "imageUrl": "https://images.unsplash.com/photo-1616469829935-c2f334a09a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["CRM", "Content Marketing", "Analytics"],
+    "url": "https://www.hubspot.com/artificial-intelligence"
+  },
+  {
+    "id": 142,
+    "name": "Jasper",
+    "category": "Marketing",
+    "description": "The essential AI co-pilot for enterprise marketing teams to create high-quality ad copy, social media content, and marketing emails at scale.",
+    "imageUrl": "https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Ad Copy", "AI Writer", "Brand Voice"],
+    "url": "https://www.jasper.ai/"
+  },
+  {
+    "id": 143,
+    "name": "Surfer SEO",
+    "category": "Marketing",
+    "description": "A content intelligence tool that helps marketers plan, write, and optimize blog content to rank higher on search engines.",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["SEO", "Content Optimization", "Keyword Research"],
+    "url": "https://surferseo.com/"
+  },
+  {
+    "id": 144,
+    "name": "AdCreative.ai",
+    "category": "Marketing",
+    "description": "Generates conversion-focused ad creatives and social media post creatives in seconds, helping to improve campaign performance.",
+    "imageUrl": "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Ad Creatives", "Performance Marketing", "Automation"],
+    "url": "https://www.adcreative.ai/"
+  },
+  {
+    "id": 145,
+    "name": "Flick",
+    "category": "Marketing",
+    "description": "An all-in-one social media marketing platform with AI assistance for writing captions, finding hashtags, and scheduling posts.",
+    "imageUrl": "https://images.unsplash.com/photo-1611162616805-6a405743f361?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Social Media", "Hashtags", "Content Scheduling"],
+    "url": "https://www.flick.tech/"
+  },
+  {
+    "id": 146,
+    "name": "Klaviyo AI",
+    "category": "Marketing",
+    "description": "AI features within the Klaviyo platform that assist with email subject line generation, predictive analytics, and SMS content creation.",
+    "imageUrl": "https://images.unsplash.com/photo-1589762382587-32b0e4b8a249?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Email Marketing", "SMS Marketing", "Predictive Analytics"],
+    "url": "https://www.klaviyo.com/features/klaviyo-ai"
+  },
+  {
+    "id": 147,
+    "name": "MarketMuse",
+    "category": "Marketing",
+    "description": "An AI-powered content planning and optimization platform that helps marketers build topical authority and win at SEO.",
+    "imageUrl": "https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Content Strategy", "SEO", "Topical Authority"],
+    "url": "https://www.marketmuse.com/"
+  },
+  {
+    "id": 148,
+    "name": "Unbounce Smart Builder",
+    "category": "Marketing",
+    "description": "An AI-powered landing page builder that suggests copy and design layouts optimized for your industry and conversion goals.",
+    "imageUrl": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Landing Pages", "Conversion Rate", "Page Builder"],
+    "url": "https://unbounce.com/landing-page-builder/"
+  },
+  {
+    "id": 149,
+    "name": "Lately",
+    "category": "Marketing",
+    "description": "An AI content repurposing tool that turns long-form content like blogs and webinars into dozens of high-performing social media posts.",
+    "imageUrl": "https://images.unsplash.com/photo-1612733848383-a9994b6d3a9b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Social Media", "Repurposing", "Content Automation"],
+    "url": "https://www.lately.ai/"
+  },
+  {
+    "id": 150,
+    "name": "Synthesia",
+    "category": "Marketing",
+    "description": "Create professional-quality videos for marketing campaigns, product demos, and social media using AI avatars and voiceovers.",
+    "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Marketing", "AI Avatars", "Explainer Videos"],
+    "url": "https://www.synthesia.io/"
+  },
+  {
+    "id": 151,
+    "name": "Brandwatch",
+    "category": "Marketing",
+    "description": "A consumer intelligence platform that uses AI to analyze social media conversations, reviews, and news to uncover market trends.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Social Listening", "Consumer Insights", "Analytics"],
+    "url": "https://www.brandwatch.com/"
+  },
+  {
+    "id": 152,
+    "name": "Copy.ai",
+    "category": "Marketing",
+    "description": "An AI-powered copywriter that generates creative content for businesses, specializing in sales copy and digital ad copy.",
+    "imageUrl": "https://images.unsplash.com/photo-1516245834210-c4c1427873ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Copywriting", "Sales Funnels", "Ad Copy"],
+    "url": "https://www.copy.ai/"
+  },
+  {
+    "id": 153,
+    "name": "Pencil",
+    "category": "Marketing",
+    "description": "An AI ad generator that connects to your ad accounts and e-commerce store to create new ad variations predicted to perform well.",
+    "imageUrl": "https://images.unsplash.com/photo-1620325867582-51b227515c46?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Ad Creatives", "E-commerce", "Generative AI"],
+    "url": "https://www.trypencil.com/"
+  },
+  {
+    "id": 154,
+    "name": "Ortto",
+    "category": "Marketing",
+    "description": "A customer data and marketing automation platform using AI to personalize customer journeys across email, SMS, and more.",
+    "imageUrl": "https://images.unsplash.com/photo-1556740738-b6a63e2775d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Marketing Automation", "Customer Journey", "Personalization"],
+    "url": "https://ortto.com/"
+  },
+  {
+    "id": 155,
+    "name": "Phrasee",
+    "category": "Marketing",
+    "description": "An AI platform that specializes in generating and optimizing on-brand marketing copy for emails, push notifications, and social ads.",
+    "imageUrl": "https://images.unsplash.com/photo-1553877522-c36980345885?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Brand Voice", "Email Copy", "Enterprise"],
+    "url": "https://phrasee.co/"
+  },
+  {
+    "id": 156,
+    "name": "Albert.ai",
+    "category": "Marketing",
+    "description": "An autonomous AI marketing platform that manages and optimizes digital advertising campaigns across various channels.",
+    "imageUrl": "https://images.unsplash.com/photo-1614028674026-a0a143611317?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Autonomous AI", "Ad Optimization", "Cross-Channel"],
+    "url": "https://albert.ai/"
+  },
+  {
+    "id": 157,
+    "name": "Mailchimp AI",
+    "category": "Marketing",
+    "description": "Features inside Mailchimp like a Content Optimizer and Creative Assistant that help improve email campaigns and generate designs.",
+    "imageUrl": "https://images.unsplash.com/photo-1557997372-1c1a2523f6c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Email Marketing", "Content Optimizer", "Design"],
+    "url": "https://mailchimp.com/features/ai-tools/"
+  },
+  {
+    "id": 158,
+    "name": "Seventh Sense",
+    "category": "Marketing",
+    "description": "An AI platform that personalizes email send times for each individual recipient to maximize open rates and engagement.",
+    "imageUrl": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Email Optimization", "Send Time", "Engagement"],
+    "url": "https://www.theseventhsense.com/"
+  },
+  {
+    "id": 159,
+    "name": "Perplexity AI",
+    "category": "Marketing",
+    "description": "A conversational search engine that acts as a powerful research tool for marketers to find insights, statistics, and customer trends.",
+    "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Market Research", "Search Engine", "Insights"],
+    "url": "https://www.perplexity.ai/"
+  },
+  {
+    "id": 160,
+    "name": "Pictory",
+    "category": "Marketing",
+    "description": "An AI tool that turns long-form content like blogs into short, branded videos perfect for social media marketing.",
+    "imageUrl": "https://images.unsplash.com/photo-1517436073-3b1a37c9f693?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Marketing", "Content Repurposing", "Branded Content"],
+    "url": "https://pictory.ai/"
+  },
+  {
+    "id": 161,
+    "name": "Writesonic",
+    "category": "Marketing",
+    "description": "An AI writer for creating SEO-optimized and plagiarism-free content for blogs, ads, emails, and websites at high speed.",
+    "imageUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Writer", "SEO", "Landing Pages"],
+    "url": "https://writesonic.com/"
+  },
+  {
+    "id": 162,
+    "name": "Exceed.ai",
+    "category": "Marketing",
+    "description": "An AI-powered conversational marketing platform that qualifies leads through two-way automated email and chat conversations.",
+    "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Lead Qualification", "Conversational AI", "Sales Assistant"],
+    "url": "https://www.exceed.ai/"
+  },
+  {
+    "id": 163,
+    "name": "Attentive",
+    "category": "Marketing",
+    "description": "A leading SMS marketing platform that uses AI to personalize text message campaigns and drive revenue for e-commerce brands.",
+    "imageUrl": "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["SMS Marketing", "Personalization", "E-commerce"],
+    "url": "https://www.attentive.com/"
+  },
+  {
+    "id": 164,
+    "name": "Drift",
+    "category": "Marketing",
+    "description": "A conversational marketing and sales platform that uses AI-powered chatbots to engage website visitors and book meetings.",
+    "imageUrl": "https://images.unsplash.com/photo-1591696205602-2f950c41744a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Conversational Marketing", "Chatbot", "Lead Generation"],
+    "url": "https://www.drift.com/"
+  },
+  {
+    "id": 165,
+    "name": "Semrush",
+    "category": "Marketing",
+    "description": "A comprehensive SEO and marketing toolkit with AI features for keyword research, competitor analysis, and content strategy.",
+    "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["SEO", "Competitor Analysis", "Marketing Toolkit"],
+    "url": "https://www.semrush.com/"
   }
+
 
 
 ];
@@ -1296,7 +1523,7 @@ const categories = [
   { id: "image & video", name: "Image & Video", icon: Camera },
   { id: "Productivity", name: "Productivity", icon: Rocket },
   { id: "coding", name: "Coding", icon: Code },
-  { id: "marketing", name: "Marketing", icon: TrendingUp },
+  { id: "Marketing", name: "Marketing", icon: TrendingUp },
   { id: "trading", name: "Trading", icon: TrendingUp },
 ];
 
@@ -1310,7 +1537,7 @@ const getCategoryDisplayName = (category: string) => {
       return "Productivity";
     case "coding":
       return "Coding";
-    case "marketing":
+    case "Marketing":
       return "Marketing";
     case "trading":
       return "Trading";
@@ -1321,15 +1548,15 @@ const getCategoryDisplayName = (category: string) => {
 
 const getCategoryColor = (category: string) => {
   switch (category) {
-    case "content-creation":
+    case "Content Creation":
       return "bg-blue-100 text-blue-800";
-    case "image-video":
+    case "image & video":
       return "bg-purple-100 text-purple-800";
-    case "productivity":
+    case "Productivity":
       return "bg-green-100 text-green-800";
     case "coding":
       return "bg-slate-100 text-slate-800";
-    case "marketing":
+    case "Marketing":
       return "bg-orange-100 text-orange-800";
     default:
       return "bg-gray-100 text-gray-800";

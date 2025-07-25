@@ -828,7 +828,234 @@ const aiTools: AITool[] = [
     imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Generator", "User-Friendly", "Multiple Models"],
     url: "https://playgroundai.com/"
+  },
+  
+  {
+    "id": 91,
+    "name": "Notion AI",
+    "category": "Productivity",
+    "description": "An AI assistant integrated within the Notion workspace to summarize, rewrite, and brainstorm content directly in your documents and databases.",
+    "imageUrl": "https://images.unsplash.com/photo-1611262588024-d12430b98920?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Workspace", "Summarizer", "Note Taking"],
+    "url": "https://www.notion.so/product/ai"
+  },
+  {
+    "id": 92,
+    "name": "Fireflies.ai",
+    "category": "Productivity",
+    "description": "An AI meeting assistant that records, transcribes, summarizes, and analyzes your voice conversations from various web-conferencing platforms.",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-1696413565d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Transcription", "Meeting Assistant", "Automation"],
+    "url": "https://fireflies.ai/"
+  },
+  {
+    "id": 93,
+    "name": "Motion",
+    "category": "Productivity",
+    "description": "Uses AI to automatically plan your day, schedule tasks, and manage projects by building an intelligent calendar.",
+    "imageUrl": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Scheduler", "Task Management", "Calendar"],
+    "url": "https://www.usemotion.com/"
+  },
+  {
+    "id": 94,
+    "name": "ClickUp AI",
+    "category": "Productivity",
+    "description": "A role-based AI assistant inside ClickUp that helps generate action items, summarize tasks, and write project updates.",
+    "imageUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Project Management", "Team Collaboration", "Summarizer"],
+    "url": "https://clickup.com/features/ai"
+  },
+  {
+    "id": 95,
+    "name": "Zapier",
+    "category": "Productivity",
+    "description": "An automation platform that connects your apps and services, allowing you to build AI-powered workflows without code.",
+    "imageUrl": "https://images.unsplash.com/photo-1556740758-90de374c12ad?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Automation", "Integration", "Workflow"],
+    "url": "https://zapier.com/"
+  },
+  {
+    "id": 96,
+    "name": "Grammarly",
+    "category": "Productivity",
+    "description": "An AI-powered writing assistant that checks grammar, spelling, style, and tone, with generative AI features for rewriting and ideation.",
+    "imageUrl": "https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Writing Assistant", "Grammar Check", "Communication"],
+    "url": "https://www.grammarly.com/"
+  },
+  {
+    "id": 97,
+    "name": "Tome",
+    "category": "Productivity",
+    "description": "An AI-powered storytelling and presentation tool that helps you generate entire narratives, slides, and images from a single prompt.",
+    "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Presentations", "Storytelling", "Generative AI"],
+    "url": "https://tome.app/"
+  },
+  {
+    "id": 98,
+    "name": "Otter.ai",
+    "category": "Productivity",
+    "description": "Provides real-time transcription for meetings and conversations, and automatically generates summaries and action items.",
+    "imageUrl": "https://images.unsplash.com/photo-1590650213764-3246034c2643?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Live Transcription", "Meeting Notes", "Audio"],
+    "url": "https://otter.ai/"
+  },
+  {
+    "id": 99,
+    "name": "Reclaim.ai",
+    "category": "Productivity",
+    "description": "An intelligent calendar assistant that automatically finds the best time for your tasks, habits, and meetings.",
+    "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Calendar", "Time Blocking", "Scheduling"],
+    "url": "https://reclaim.ai/"
+  },
+  {
+    "id": 100,
+    "name": "SaneBox",
+    "category": "Productivity",
+    "description": "An AI tool that analyzes your email history to prioritize important messages and filter out distractions, keeping your inbox clean.",
+    "imageUrl": "https://images.unsplash.com/photo-1589762382587-32b0e4b8a249?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Email Management", "Inbox Zero", "Filtering"],
+    "url": "https://www.sanebox.com/"
+  },
+  {
+    "id": 101,
+    "name": "Microsoft 365 Copilot",
+    "category": "Productivity",
+    "description": "AI integrated across Microsoft 365 apps (Word, Excel, PowerPoint, Outlook) to draft documents, analyze data, and summarize emails.",
+    "imageUrl": "https://images.unsplash.com/photo-1600132806378-43d0409a15f0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Office Suite", "Data Analysis", "Enterprise AI"],
+    "url": "https://www.microsoft.com/en-us/microsoft-365/copilot-for-microsoft-365"
+  },
+  {
+    "id": 102,
+    "name": "Gamma",
+    "category": "Productivity",
+    "description": "A fast, AI-powered alternative to slides. Helps create engaging presentations, documents, and webpages from text prompts.",
+    "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Presentations", "Document Creation", "No-Code"],
+    "url": "https://gamma.app/"
+  },
+  {
+    "id": 103,
+    "name": "Mem",
+    "category": "Productivity",
+    "description": "A self-organizing workspace that uses AI to connect your notes, files, and calendar events, making information easy to find and use.",
+    "imageUrl": "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Knowledge Management", "Note Taking", "Personal CRM"],
+    "url": "https://mem.ai/"
+  },
+  {
+    "id": 104,
+    "name": "Superhuman",
+    "category": "Productivity",
+    "description": "The fastest email experience ever made, with AI features for summarizing threads, writing drafts, and organizing your inbox.",
+    "imageUrl": "https://images.unsplash.com/photo-1557997372-1c1a2523f6c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Email Client", "Speed", "Keyboard Shortcuts"],
+    "url": "https://superhuman.com/"
+  },
+  {
+    "id": 105,
+    "name": "Clockwise",
+    "category": "Productivity",
+    "description": "An intelligent calendar assistant that optimizes your team's schedule to create more focus time and resolve meeting conflicts.",
+    "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Calendar", "Focus Time", "Team Scheduling"],
+    "url": "https://www.getclockwise.com/"
+  },
+  {
+    "id": 106,
+    "name": "Glean",
+    "category": "Productivity",
+    "description": "An AI-powered work search assistant that helps you find exactly what you need across all your company's apps and documents.",
+    "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Enterprise Search", "Knowledge Discovery", "Work Assistant"],
+    "url": "https://www.glean.com/"
+  },
+  {
+    "id": 107,
+    "name": "Asana Intelligence",
+    "category": "Productivity",
+    "description": "AI features within Asana that provide project risk assessments, suggest tasks, and generate intelligent status reports.",
+    "imageUrl": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Project Management", "Workflow", "Team Goals"],
+    "url": "https://asana.com/product/ai"
+  },
+  {
+    "id": 108,
+    "name": "Sembly AI",
+    "category": "Productivity",
+    "description": "A smart meeting assistant that generates automated meeting minutes, identifies key items, and creates summaries with action points.",
+    "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Meeting Notes", "AI Assistant", "Action Items"],
+    "url": "https://www.sembly.ai/"
+  },
+  {
+    "id": 109,
+    "name": "Magical",
+    "category": "Productivity",
+    "description": "A text expander and automation tool that uses AI to instantly fill sheets, reply to messages, and automate repetitive data entry tasks.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Automation", "Text Expander", "Data Entry"],
+    "url": "https://www.getmagical.com/"
+  },
+  {
+    "id": 110,
+    "name": "Wrike",
+    "category": "Productivity",
+    "description": "A project management tool with AI features like task prioritization, predictive risk analysis, and automated document processing.",
+    "imageUrl": "https://images.unsplash.com/photo-1549923746-c502d488b3ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Project Management", "Risk Analysis", "Automation"],
+    "url": "https://www.wrike.com/features/ai-project-management/"
+  },
+  {
+    "id": 111,
+    "name": "Timely",
+    "category": "Productivity",
+    "description": "An automated time tracking tool that uses AI to capture all your work activity and create accurate timesheets for you.",
+    "imageUrl": "https://images.unsplash.com/photo-1497215868191-1ca9b1c0c3c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Time Tracking", "Automation", "Reporting"],
+    "url": "https://timelyapp.com/"
+  },
+  {
+    "id": 112,
+    "name": "Make",
+    "category": "Productivity",
+    "description": "A visual automation platform similar to Zapier, allowing you to design, build, and automate anything from tasks to complex workflows.",
+    "imageUrl": "https://images.unsplash.com/photo-1529119368499-315bc7f98543?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Workflow Automation", "No-Code", "Integration"],
+    "url": "https://www.make.com/"
+  },
+  {
+    "id": 113,
+    "name": "Textio",
+    "category": "Productivity",
+    "description": "An AI writing platform that helps companies write more inclusive and effective job descriptions and performance feedback.",
+    "imageUrl": "https://images.unsplash.com/photo-1553877522-c36980345885?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Inclusive Writing", "HR Tech", "Augmented Writing"],
+    "url": "https://textio.com/"
+  },
+  {
+    "id": 114,
+    "name": "Todoist",
+    "category": "Productivity",
+    "description": "A task manager that uses natural language processing and AI-assisted features to help organize your work and life.",
+    "imageUrl": "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Task Manager", "To-Do List", "Organization"],
+    "url": "https://todoist.com/"
+  },
+  {
+    "id": 115,
+    "name": "Google Workspace AI",
+    "category": "Productivity",
+    "description": "Formerly Duet AI, this suite of features brings generative AI to Google Docs, Gmail, Sheets, and Meet for drafting, summarizing, and analysis.",
+    "imageUrl": "https://images.unsplash.com/photo-1610986603124-d2139dba42a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Google Suite", "Generative AI", "Collaboration"],
+    "url": "https://workspace.google.com/solutions/ai/"
   }
+
 ];
 
 

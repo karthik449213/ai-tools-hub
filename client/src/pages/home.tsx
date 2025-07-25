@@ -1054,7 +1054,234 @@ const aiTools: AITool[] = [
     "imageUrl": "https://images.unsplash.com/photo-1610986603124-d2139dba42a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     "tags": ["Google Suite", "Generative AI", "Collaboration"],
     "url": "https://workspace.google.com/solutions/ai/"
+  },
+  
+  {
+    "id": 116,
+    "name": "Jasper",
+    "category": "Content Creation",
+    "description": "An advanced AI content platform for creating high-quality marketing copy, blog posts, social media updates, and other written content.",
+    "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Writer", "Copywriting", "Marketing"],
+    "url": "https://www.jasper.ai/"
+  },
+  {
+    "id": 117,
+    "name": "Midjourney",
+    "category": "Content Creation",
+    "description": "A premier AI image generator known for producing highly artistic, detailed, and high-resolution images from text prompts via Discord.",
+    "imageUrl": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Image Generator", "Artistic", "Text-to-Image"],
+    "url": "https://www.midjourney.com/"
+  },
+  {
+    "id": 118,
+    "name": "ElevenLabs",
+    "category": "Content Creation",
+    "description": "Generates realistic, human-like voiceovers and cloned voices from text using advanced deep learning models for videos, podcasts, and audiobooks.",
+    "imageUrl": "https://images.unsplash.com/photo-1590235320392-a6390a3a41e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Voice Generator", "Text-to-Speech", "Audio"],
+    "url": "https://elevenlabs.io/"
+  },
+  {
+    "id": 119,
+    "name": "Runway",
+    "category": "Content Creation",
+    "description": "An all-in-one content creation suite with powerful AI magic tools for video editing, including text-to-video, inpainting, and motion tracking.",
+    "imageUrl": "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Editing", "Text-to-Video", "AI Tools"],
+    "url": "https://runwayml.com/"
+  },
+  {
+    "id": 120,
+    "name": "Copy.ai",
+    "category": "Content Creation",
+    "description": "An AI-powered copywriter that generates creative content for businesses, including sales copy, product descriptions, and digital ad copy.",
+    "imageUrl": "https://images.unsplash.com/photo-1516245834210-c4c1427873ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Copywriting", "Marketing", "Content Generator"],
+    "url": "https://www.copy.ai/"
+  },
+  {
+    "id": 121,
+    "name": "Synthesia",
+    "category": "Content Creation",
+    "description": "An AI video generation platform that allows you to create professional videos with AI avatars and voiceovers in minutes.",
+    "imageUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Video", "Avatars", "Corporate Training"],
+    "url": "https://www.synthesia.io/"
+  },
+  {
+    "id": 122,
+    "name": "DALL-E 3",
+    "category": "Content Creation",
+    "description": "OpenAI's image generation model that creates highly detailed and contextually accurate images from text descriptions, integrated into ChatGPT and other tools.",
+    "imageUrl": "https://images.unsplash.com/photo-1664447979928-047b1836a44a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Image Generator", "OpenAI", "Creative"],
+    "url": "https://openai.com/dall-e-3"
+  },
+  {
+    "id": 123,
+    "name": "Descript",
+    "category": "Content Creation",
+    "description": "An all-in-one editor that makes editing audio and video as simple as editing a text document, with AI features like overdub and studio sound.",
+    "imageUrl": "https://images.unsplash.com/photo-1616541674175-f74f76274438?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Editing", "Podcasting", "Transcription"],
+    "url": "https://www.descript.com/"
+  },
+  {
+    "id": 124,
+    "name": "Writesonic",
+    "category": "Content Creation",
+    "description": "An AI writer that creates SEO-friendly content for blogs, ads, and websites, complete with a chatbot builder and paraphrasing tools.",
+    "imageUrl": "https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Writer", "SEO", "Blog Posts"],
+    "url": "https://writesonic.com/"
+  },
+  {
+    "id": 125,
+    "name": "Leonardo.Ai",
+    "category": "Content Creation",
+    "description": "A platform for generating high-quality game assets, concept art, and illustrations using a variety of fine-tuned AI models.",
+    "imageUrl": "https://images.unsplash.com/photo-1580894908361-967195033215?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Game Assets", "Image Generator", "Art"],
+    "url": "https://leonardo.ai/"
+  },
+  {
+    "id": 126,
+    "name": "Murf.ai",
+    "category": "Content Creation",
+    "description": "A versatile AI voice generator that provides a library of realistic voices for creating voiceovers for videos and presentations.",
+    "imageUrl": "https://images.unsplash.com/photo-1543269733-72a0f7a622a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Voiceover", "Text-to-Speech", "Audio Content"],
+    "url": "https://murf.ai/"
+  },
+  {
+    "id": 127,
+    "name": "Surfer SEO",
+    "category": "Content Creation",
+    "description": "A content intelligence tool that helps you write and optimize articles to rank high on search engines by analyzing top competitors.",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["SEO", "Content Optimization", "Auditing"],
+    "url": "https://surferseo.com/"
+  },
+  {
+    "id": 128,
+    "name": "Pictory",
+    "category": "Content Creation",
+    "description": "An AI video generator that enables you to create and edit professional-quality videos from scripts or blog posts automatically.",
+    "imageUrl": "https://images.unsplash.com/photo-1517436073-3b1a37c9f693?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Article-to-Video", "Video Automation", "Social Media"],
+    "url": "https://pictory.ai/"
+  },
+  {
+    "id": 129,
+    "name": "Suno AI",
+    "category": "Content Creation",
+    "description": "An innovative AI music generator that creates original songs, complete with vocals and instruments, from a simple text prompt.",
+    "imageUrl": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Music Generation", "AI Song", "Text-to-Music"],
+    "url": "https://www.suno.ai/"
+  },
+  {
+    "id": 130,
+    "name": "Canva Magic Studio",
+    "category": "Content Creation",
+    "description": "A suite of AI-powered design tools within Canva, including Magic Write, Magic Design, and a text-to-image generator for effortless creation.",
+    "imageUrl": "https://images.unsplash.com/photo-1611926653458-0929221b6a42?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Graphic Design", "AI Design", "Marketing Assets"],
+    "url": "https://www.canva.com/magic-studio/"
+  },
+  {
+    "id": 131,
+    "name": "Rytr",
+    "category": "Content Creation",
+    "description": "An AI writing assistant that helps you create high-quality content for blogs, emails, and social media in just a few seconds.",
+    "imageUrl": "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["AI Writer", "Affordable", "Content Generation"],
+    "url": "https://rytr.me/"
+  },
+  {
+    "id": 132,
+    "name": "Opus Clip",
+    "category": "Content Creation",
+    "description": "An AI video repurposing tool that turns long videos into short, viral-ready clips for platforms like TikTok, YouTube Shorts, and Reels.",
+    "imageUrl": "https://images.unsplash.com/photo-1611605698335-8b1569810432?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Clipping", "Repurposing", "Social Media"],
+    "url": "https://www.opus.pro/"
+  },
+  {
+    "id": 133,
+    "name": "Frase.io",
+    "category": "Content Creation",
+    "description": "An AI tool that helps you research, write, and optimize SEO content faster by generating content briefs and answering questions.",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["SEO", "Content Briefs", "Research"],
+    "url": "https://www.frase.io/"
+  },
+  {
+    "id": 134,
+    "name": "Playground AI",
+    "category": "Content Creation",
+    "description": "A free-to-use online AI image creator with a user-friendly interface, offering multiple models and powerful editing capabilities.",
+    "imageUrl": "https://images.unsplash.com/photo-1512418490979-92798e940478?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Free Generator", "User-Friendly", "Multiple Models"],
+    "url": "https://playground.com/"
+  },
+  {
+    "id": 135,
+    "name": "InVideo",
+    "category": "Content Creation",
+    "description": "An online video editor with AI-powered features like text-to-video, pre-made templates, and a stock media library for quick video creation.",
+    "imageUrl": "https://images.unsplash.com/photo-1533613225195-508a284a6839?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Video Editor", "Templates", "Text-to-Video"],
+    "url": "https://invideo.io/"
+  },
+  {
+    "id": 136,
+    "name": "LALAL.AI",
+    "category": "Content Creation",
+    "description": "A high-quality stem splitter that uses AI to extract vocals, accompaniment, and individual instruments from any audio or video file.",
+    "imageUrl": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Audio Editing", "Stem Splitter", "Music Production"],
+    "url": "https://www.lalal.ai/"
+  },
+  {
+    "id": 137,
+    "name": "Gamma",
+    "category": "Content Creation",
+    "description": "A fast, AI-powered alternative to slides that helps you create engaging presentations, documents, and webpages from a simple prompt.",
+    "imageUrl": "https://images.unsplash.com/photo-1543286386-713bdd548da4?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Presentations", "Generative AI", "Design"],
+    "url": "https://gamma.app/"
+  },
+  {
+    "id": 138,
+    "name": "AIVA",
+    "category": "Content Creation",
+    "description": "An Artificial Intelligence that composes emotional and royalty-free soundtracks for films, commercials, games, and television.",
+    "imageUrl": "https://images.unsplash.com/photo-1567595332247-c0b893457143?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Music Composition", "Soundtrack", "Royalty-Free"],
+    "url": "https://www.aiva.ai/"
+  },
+  {
+    "id": 139,
+    "name": "Luma AI",
+    "category": "Content Creation",
+    "description": "An AI tool that allows you to create photorealistic 3D models and scenes from video clips captured on your phone.",
+    "imageUrl": "https://images.unsplash.com/photo-1655185497013-db98aca06149?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["3D Models", "Generative 3D", "Photogrammetry"],
+    "url": "https://lumalabs.ai/"
+  },
+  {
+    "id": 140,
+    "name": "DeepL Write",
+    "category": "Content Creation",
+    "description": "An AI writing assistant that improves your text by fixing grammar and punctuation mistakes and suggesting alternative phrasing for clarity and style.",
+    "imageUrl": "https://images.unsplash.com/photo-1491841550275-5b462bf48366?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    "tags": ["Writing Assistant", "Paraphrasing", "Grammar"],
+    "url": "https://www.deepl.com/write"
   }
+
 
 ];
 

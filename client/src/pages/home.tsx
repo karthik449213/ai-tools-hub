@@ -839,7 +839,7 @@ const aiTools: AITool[] = [
 const categories = [
   { id: "all", name: "All Tools", icon: null },
   { id: "content-creation", name: "Content Creation", icon: Pen },
-  { id: "image-video", name: "Image & Video", icon: Camera },
+  { id: "image & video", name: "Image & Video", icon: Camera },
   { id: "productivity", name: "Productivity", icon: Rocket },
   { id: "coding", name: "Coding", icon: Code },
   { id: "marketing", name: "Marketing", icon: TrendingUp },

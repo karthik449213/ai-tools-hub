@@ -1579,7 +1579,7 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredTools = aiTools.filter(tool => {
-    const matchesCategory = activeCategory === "all" || tool.category === activeCategory;
+    const matchesCategory = activeCategory === "all" || tool.category.toLowerCase() === activeCategory.toLowerCase();
     const matchesSearch = tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
                          tool.description.toLowerCase().includes(searchQuery.toLowerCase());
     return matchesCategory && matchesSearch;

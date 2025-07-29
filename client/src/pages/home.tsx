@@ -50,9 +50,9 @@ const aiTools: AITool[] = [
     name: "Runway ML",
     category: "image-video",
     description: "AI video editing tool with magic background remover and video-to-video capabilities.",
-    imageUrl: "https://images.unsplash.com/photo-1560472354-a33c7ffa3d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    imageUrl: "https://runwayml.com/",
     tags: ["✨ Trending", "AI Video", "Free Plan"],
-    url: "https://runwayml.com/favicon.co"
+    url: "https://runwayml.com/"
   },
   {
     id: 5,

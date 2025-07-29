@@ -1,4 +1,4 @@
-# AI Tools Hub - Robots.txt
+# Tools Herd AI - Robots.txt
 # https://toolsherdai.netlify.app/robots.txt
 
 # Allow all search engines to crawl the site

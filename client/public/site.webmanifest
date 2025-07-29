@@ -1,6 +1,6 @@
 {
-  "name": "AI Tools Hub - Best AI Tools Directory",
-  "short_name": "AI Tools Hub",
+  "name": "Tools Herd AI - Best AI Tools Directory",
+  "short_name": "Tools Herd AI",
   "description": "Discover the best AI tools for content creation, productivity, coding, marketing, and more. Hand-picked collection of free and paid AI solutions.",
   "start_url": "/",
   "display": "standalone",
@@ -14,28 +14,28 @@
   
   "icons": [
     {
-      "src": "/favicon-16x16.png",
+      "src": "/assets/logo.png",
       "sizes": "16x16",
       "type": "image/png"
     },
     {
-      "src": "/favicon-32x32.png",
+      "src": "/assets/logo.png",
       "sizes": "32x32",
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/assets/logo.png",
       "sizes": "180x180",
       "type": "image/png"
     },
     {
-      "src": "/android-chrome-192x192.png",
+      "src": "/assets/logo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/android-chrome-512x512.png",
+      "src": "/assets/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
@@ -48,14 +48,14 @@
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
-      "label": "AI Tools Hub Desktop View"
+      "label": "Tools Herd AI Desktop View"
     },
     {
       "src": "/screenshot-narrow.png",
       "sizes": "750x1334",
       "type": "image/png",
       "form_factor": "narrow",
-      "label": "AI Tools Hub Mobile View"
+      "label": "Tools Herd AI Mobile View"
     }
   ],
   
@@ -67,7 +67,7 @@
       "url": "/?category=all",
       "icons": [
         {
-          "src": "/shortcut-browse.png",
+          "src": "/assets/logo.png",
           "sizes": "96x96"
         }
       ]
@@ -79,33 +79,23 @@
       "url": "/?filter=popular",
       "icons": [
         {
-          "src": "/shortcut-popular.png",
+          "src": "/assets/logo.png",
           "sizes": "96x96"
         }
       ]
     },
     {
-      "name": "Submit Tool",
-      "short_name": "Submit",
-      "description": "Add your AI tool to our directory",
-      "url": "/submit-tool",
+      "name": "Send Feedback",
+      "short_name": "Feedback",
+      "description": "Share your thoughts with us",
+      "url": "/#feedback",
       "icons": [
         {
-          "src": "/shortcut-submit.png",
+          "src": "/assets/logo.png",
           "sizes": "96x96"
         }
       ]
     }
-  ],
-  
-  "share_target": {
-    "action": "/submit-tool",
-    "method": "GET",
-    "params": {
-      "title": "name",
-      "text": "description",
-      "url": "url"
-    }
-  }
+  ]
 }
 

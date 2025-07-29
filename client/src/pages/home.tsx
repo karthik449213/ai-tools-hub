@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Search, ExternalLink, Bot, Pen, Camera, Rocket, Code, TrendingUp, Twitter as TwitterIcon, LinkedinIcon, GithubIcon } from "lucide-react";
+import { FeedbackForm } from "@/components/feedback-form";
 
 
 interface AITool {
@@ -49,7 +50,7 @@ const aiTools: AITool[] = [
     name: "Runway ML",
     category: "image-video",
     description: "AI video editing tool with magic background remover and video-to-video capabilities.",
-    imageUrl: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    imageUrl: "https://images.unsplash.com/photo-1560472354-a33c7ffa3d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["✨ Trending", "AI Video", "Free Plan"],
     url: "https://runwayml.com/"
   },
@@ -67,7 +68,7 @@ const aiTools: AITool[] = [
     name: "Kaiber",
     category: "image-video",
     description: "Create AI-generated videos from images, text, or music.",
-    imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Creative", "Music to Video", "Paid"],
     url: "https://www.kaiber.ai/superstudio/"
   },
@@ -1593,12 +1594,12 @@ export default function Home() {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Bot className="h-8 w-8 text-blue-600" />
-              <h1 className="text-xl font-bold text-slate-900">AI Tools Hub</h1>
+              <h1 className="text-xl font-bold text-slate-900">Tools Herd AI</h1>
             </div>
             <nav className="hidden md:flex space-x-6">
               <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Browse</a>
               <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Categories</a>
-              <a href="#" className="text-slate-600 hover:text-blue-600 transition-colors">Submit Tool</a>
+              <FeedbackForm />
             </nav>
           </div>
         </div>
@@ -1608,7 +1609,7 @@ export default function Home() {
       <section className="bg-gradient-to-br from-blue-50 to-indigo-100 py-16 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-slate-900 mb-6 animate-in fade-in duration-500">
-            AI Tools Hub: Your Ultimate AI Directory
+            Tools Herd AI: Your Ultimate AI Directory
             <span className="block text-3xl lg:text-5xl text-blue-600 mt-2">
               Discover 2024's Best AI Tools by Category
             </span>
@@ -1729,7 +1730,7 @@ export default function Home() {
             <div className="md:col-span-2">
               <div className="flex items-center space-x-2 mb-4">
                 <Bot className="h-8 w-8 text-blue-400" />
-                <h3 className="text-xl font-bold">AI Tools Hub</h3>
+                <h3 className="text-xl font-bold">Tools Herd AI</h3>
               </div>
               <p className="text-slate-300 mb-6 max-w-md">
                 Discover, compare, and find the perfect AI tools for your needs. We curate the best AI solutions across all categories.
@@ -1762,22 +1763,16 @@ export default function Home() {
             <div>
               <h4 className="font-semibold mb-4">Resources</h4>
               <ul className="space-y-2 text-slate-300">
-                <li><a href="#" className="hover:text-white transition-colors">Submit Tool</a></li>
-                <li>
-                  <a href="#" className="hover:text-white transition-colors">
-                    Suggest a Tool
-                  </a>
-                </li>
-                <li><a href="#" className="hover:text-white transition-colors">API</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Newsletter</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
+                <li><a href="#feedback" className="hover:text-white transition-colors">Send Feedback</a></li>
               </ul>
             </div>
           </div>
           
           <div className="border-t border-slate-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm">
-              © 2024 AI Tools Hub. All rights reserved.
+              © 2024 Tools Herd AI. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-slate-400 hover:text-white text-sm transition-colors">Privacy Policy</a>

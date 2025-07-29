@@ -736,7 +736,7 @@ const aiTools: AITool[] = [
     name: "Kling AI",
     category: "image & video",
     description: "Chinese AI video generator offering high-quality video synthesis with competitive features and pricing models.",
-    imageUrl: "https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    imageUrl: "https://images.app.goo.gl/PeRkBfXChwvVxGh38",
     tags: ["High-Quality Synthesis", "Competitive Pricing", "Video Creation"],
     url: "https://app.klingai.com/global/?gad_source=1&gad_campaignid=22428399262&gbraid=0AAAAA_AcKMlikvDJXTo_wkMn6vqO8lVgB"
   },

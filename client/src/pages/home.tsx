@@ -52,7 +52,7 @@ const aiTools: AITool[] = [
     description: "AI video editing tool with magic background remover and video-to-video capabilities.",
     imageUrl: "https://images.unsplash.com/photo-1560472354-a33c7ffa3d66?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["✨ Trending", "AI Video", "Free Plan"],
-    url: "https://runwayml.com/"
+    url: "https://runwayml.com/favicon.co"
   },
   {
     id: 5,

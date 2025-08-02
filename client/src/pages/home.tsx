@@ -21,7 +21,7 @@ const aiTools: AITool[] = [
   {
     id: 1,
     name: "Copy.ai",
-    category: "content-creation",
+    category: "Content Creation",
     description: "AI copywriting tool to generate blog posts, ads, and social media captions.",
     imageUrl: "https://images.unsplash.com/photo-1555255707-c07966088b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Plan", "GPT-4", "Templates"],
@@ -30,7 +30,7 @@ const aiTools: AITool[] = [
   {
     id: 2,
     name: "Jasper",
-    category: "content-creation",
+    category: "Content Creation",
     description: "High-end AI assistant for marketing and SEO content.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Paid", "SEO", "Enterprise"],
@@ -39,7 +39,7 @@ const aiTools: AITool[] = [
   {
     id: 3,
     name: "Writesonic",
-    category: "content-creation",
+    category: "Content Creation",
     description: "Content generator with templates for blogs, ads, emails, and more.",
     imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Trial", "Templates", "Multilingual"],
@@ -48,7 +48,7 @@ const aiTools: AITool[] = [
   {
     id: 4,
     name: "Runway ML",
-    category: "image-video",
+    category: "Image & Video",
     description: "AI video editing tool with magic background remover and video-to-video capabilities.",
     imageUrl: "https://runwayml.com/favicon.ico",
     tags: ["✨ Trending", "AI Video", "Free Plan"],
@@ -57,7 +57,7 @@ const aiTools: AITool[] = [
   {
     id: 5,
     name: "Remove.bg",
-    category: "image-video",
+    category: "Image & Video",
     description: "Instantly removes background from images using AI.",
     imageUrl: "https://images.unsplash.com/photo-1609921141835-710b7fa6e438?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free", "Instant", "Background Removal"],
@@ -66,7 +66,7 @@ const aiTools: AITool[] = [
   {
     id: 6,
     name: "Kaiber",
-    category: "image-video",
+    category: "Image & Video",
     description: "Create AI-generated videos from images, text, or music.",
     imageUrl: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Creative", "Music to Video", "Paid"],
@@ -75,7 +75,7 @@ const aiTools: AITool[] = [
   {
     id: 7,
     name: "Notion AI",
-    category: "productivity",
+    category: "Productivity",
     description: "AI-powered writing and summarizing assistant inside Notion.",
     imageUrl: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["💎 Featured", "Workspace", "Add-on"],
@@ -85,7 +85,7 @@ const aiTools: AITool[] = [
   {
     id: 8,
     name: "Mem.ai",
-    category: "productivity",
+    category: "Productivity",
     description: "AI note-taking tool that auto-organizes and connects your thoughts.",
     imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Smart Notes", "Auto-organize", "Free Trial"],
@@ -94,7 +94,7 @@ const aiTools: AITool[] = [
   {
     id: 9,
     name: "ChatGPT",
-    category: "productivity",
+    category: "Productivity",
     description: "OpenAI's conversational agent for research, summarizing, and problem-solving.",
     imageUrl: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["🔥 Popular", "GPT-4", "Free"],
@@ -103,7 +103,7 @@ const aiTools: AITool[] = [
   {
     id: 10,
     name: "GitHub Copilot",
-    category: "coding",
+    category: "Coding",
     description: "AI coding assistant for real-time code suggestions.",
     imageUrl: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["GitHub", "IDE Plugin", "Subscription"],
@@ -112,7 +112,7 @@ const aiTools: AITool[] = [
   {
     id: 11,
     name: "Codeium",
-    category: "coding",
+    category: "Coding",
     description: "Free AI code autocomplete and documentation generator.",
     imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free", "Autocomplete", "Multi-language"],
@@ -121,7 +121,7 @@ const aiTools: AITool[] = [
   {
     id: 12,
     name: "Tabnine",
-    category: "coding",
+    category: "Coding",
     description: "AI code completion plugin supporting multiple languages.",
     imageUrl: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Plugin", "Multi-IDE", "Freemium"],
@@ -130,7 +130,7 @@ const aiTools: AITool[] = [
   {
     id: 13,
     name: "Surfer SEO",
-    category: "marketing",
+    category: "Marketing",
     description: "AI + SEO optimization platform for content ranking.",
     imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["SEO", "Content Optimization", "Paid"],
@@ -139,7 +139,7 @@ const aiTools: AITool[] = [
   {
     id: 14,
     name: "AdCreative.ai",
-    category: "marketing",
+    category: "Marketing",
     description: "AI tool for generating high-converting ad creatives.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Ad Creatives", "AI", "Free Plan"],
@@ -148,7 +148,7 @@ const aiTools: AITool[] = [
   {
     id: 15,
     name: "Canva",
-    category: "image-video",
+    category: "Image & Video",
     description: "Graphic design tool with AI-powered features for creating stunning visuals.",
     imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Design", "Templates", "Free Plan"],
@@ -158,7 +158,7 @@ const aiTools: AITool[] = [
   {
     id: 16,
     name: "Trade Ideas",
-    category: "trading",
+    category: "Trading",
     description: "AI-powered stock scanning and backtesting platform with real-time trading signals and automated bot execution.",
     imageUrl: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["AI Bots", "Real-time Signals", "Desktop & Web"],
@@ -1580,9 +1580,17 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filteredTools = aiTools.filter(tool => {
-    const matchesCategory = activeCategory === "all" || tool.category.toLowerCase() === activeCategory.toLowerCase();
+    const matchesCategory = activeCategory === "all" || (
+      (activeCategory === "content-creation" && tool.category === "Content Creation") ||
+      (activeCategory === "image-video" && tool.category === "Image & Video") ||
+      (activeCategory === "productivity" && tool.category === "Productivity") ||
+      (activeCategory === "coding" && tool.category === "Coding") ||
+      (activeCategory === "marketing" && tool.category === "Marketing") ||
+      (activeCategory === "trading" && tool.category === "Trading")
+    );
     const matchesSearch = tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-                         tool.description.toLowerCase().includes(searchQuery.toLowerCase());
+                         tool.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                         tool.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()));
     return matchesCategory && matchesSearch;
   });
 

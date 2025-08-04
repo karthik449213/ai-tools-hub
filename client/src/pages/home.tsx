@@ -43,7 +43,7 @@ const aiTools: AITool[] = [
     description: "Content generator with templates for blogs, ads, emails, and more.",
     imageUrl: "https://images.unsplash.com/photo-1542744094-3a31f272c490?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     tags: ["Free Trial", "Templates", "Multilingual"],
-    url: "https://writesonic.com/"
+    url: "https://otieu.com/4/9507695"
   },
   {
     id: 4,
